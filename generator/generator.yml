@@ -5,7 +5,7 @@ modules:
       - interfaces
       - ifMIB
       - mikrotik
-      - ruckusRootMIB
+      - ruckusUnleashedSystemStats
     auth:
       community: rewandchewrw
     lookups:
