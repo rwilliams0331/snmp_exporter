@@ -1,10 +1,11 @@
 modules:
 
-  mikrotik:
+  snmp:
     walk:
       - interfaces
       - ifMIB
       - mikrotik
+      - ruckusRootMIB
     auth:
       community: rewandchewrw
     lookups:
@@ -18,11 +19,3 @@ modules:
         ignore: true # Lookup metric
       ifType:
         type: EnumAsInfo
-
-  ruckus:
-    walk:
-      - interfaces
-      - ifMIB
-      - ruckusRootMIB
-    auth:
-      community: rewandchewrw
