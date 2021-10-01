@@ -5163,5 +5163,8 @@ mikrotik_test:
     oid: 1.3.6.1.4.1.14988.1.1.18.1.1.2.1
     type: DisplayString
     help: this oid on get request will run script and return it's output - 1.3.6.1.4.1.14988.1.1.18.1.1.2.1
+    indexes:
+    - labelname: mtxrScriptRunIndex
+      type: gauge
   auth:
     community: rewandchewrw
