@@ -26,3 +26,6 @@ modules:
       - ruckusRootMIB
     auth:
       community: rewandchewrw
+    lookups:
+      - source_indexes: [ifIndex]
+        lookup: ifName
